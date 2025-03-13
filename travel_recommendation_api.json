@@ -1,15 +1,38 @@
 {
     "beaches": [
-      {"name": "Maldives", "image": "maldives.jpg", "description": "Beautiful white-sand beaches."},
-      {"name": "Bora bora", "image": "bora_bora.jpg", "description": "A tropical paradise."}
+        {
+            "name": "Maldives",
+            "image": "Images/maldives.jpg",
+            "description": "Crystal-clear waters and luxurious resorts make the Maldives a top beach destination."
+        },
+        {
+            "name": "Bora Bora",
+            "image": "Images/bora_bora.jpg",
+            "description": "Famous for its stunning lagoons and overwater bungalows."
+        }
     ],
     "temples": [
-      {"name": "Angkor Wat", "image": "angkor.jpg", "description": "Ancient Khmer temple in Cambodia."},
-      {"name": "Golden Temple", "image": "golden.jpg", "description": "A sacred Sikh shrine in India."}
+        {
+            "name": "Angkor Wat",
+            "image": "Images/angor_wat.jpg",
+            "description": "The largest religious monument in the world, rich in history and architecture."
+        },
+        {
+            "name": "Kinkaku-ji",
+            "image": "Images/kinkaku_ji.jpg",
+            "description": "Also known as the Golden Pavilion, this Zen temple is a masterpiece of Japanese culture."
+        }
     ],
     "countries": [
-      {"name": "Japan", "image": "japan.jpg", "description": "Explore the blend of tradition and modernity."},
-      {"name": "Italy", "image": "italy.jpg", "description": "Enjoy the rich history and delicious cuisine."}
+        {
+            "name": "Japan",
+            "image": "Images/japan.jpg",
+            "description": "Japan is a blend of modern innovation and rich cultural heritage."
+        },
+        {
+            "name": "Italy",
+            "image": "Images/italy.jpg",
+            "description": "Known for its historic cities, delicious cuisine, and stunning landscapes."
+        }
     ]
-  }
-  
+}

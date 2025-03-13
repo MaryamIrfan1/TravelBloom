@@ -3,33 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TravelBloom - Home</title>
-    <link rel="stylesheet" href="style.css">
+    <title>TravelBloom - Explore Destinations</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+    <!-- Navigation Bar -->
     <nav>
-        <h1>TravelBloom</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+        <div class="logo">TravelBloom</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
         </ul>
-        <input type="text" id="searchBox" placeholder="Search destinations">
-        <button onclick="searchDestinations()">Search</button>
     </nav>
 
-    <header>
-        <h2>Discover Your Next Adventure!</h2>
-        <p>Explore destinations tailored to your interests.</p>
-        <button class="btn">Book Now</button>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Discover Your Next Adventure</h1>
+        <p>Explore the best destinations around the world.</p>
+        <input type="text" id="searchInput" placeholder="Search destinations..." onkeyup="searchDestinations()">
     </header>
 
-    <section id="recommendations">
-        <h2>Recommended Destinations</h2>
-        <div id="destinations-container"></div>
+    <!-- Category Buttons -->
+    <div class="category-buttons">
+        <button onclick="displayRecommendations('beaches')">Beaches</button>
+        <button onclick="displayRecommendations('temples')">Temples</button>
+        <button onclick="displayRecommendations('countries')">Countries</button>
+    </div>
+
+    <!-- Destination Results -->
+    <section id="destinationResults" class="destination-container">
+        <!-- Dynamic Travel Recommendations will appear here -->
     </section>
 
-    <script src="travel_recommendation.js"></script>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TravelBloom. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
