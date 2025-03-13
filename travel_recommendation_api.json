@@ -1,7 +1,7 @@
 {
     "beaches": [
       {"name": "Maldives", "image": "maldives.jpg", "description": "Beautiful white-sand beaches."},
-      {"name": "Bali", "image": "bali.jpg", "description": "A tropical paradise."}
+      {"name": "Bora bora", "image": "bora_bora.jpg", "description": "A tropical paradise."}
     ],
     "temples": [
       {"name": "Angkor Wat", "image": "angkor.jpg", "description": "Ancient Khmer temple in Cambodia."},
