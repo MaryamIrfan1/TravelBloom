@@ -1,0 +1,15 @@
+{
+    "beaches": [
+      {"name": "Maldives", "image": "maldives.jpg", "description": "Beautiful white-sand beaches."},
+      {"name": "Bali", "image": "bali.jpg", "description": "A tropical paradise."}
+    ],
+    "temples": [
+      {"name": "Angkor Wat", "image": "angkor.jpg", "description": "Ancient Khmer temple in Cambodia."},
+      {"name": "Golden Temple", "image": "golden.jpg", "description": "A sacred Sikh shrine in India."}
+    ],
+    "countries": [
+      {"name": "Japan", "image": "japan.jpg", "description": "Explore the blend of tradition and modernity."},
+      {"name": "Italy", "image": "italy.jpg", "description": "Enjoy the rich history and delicious cuisine."}
+    ]
+  }
+  

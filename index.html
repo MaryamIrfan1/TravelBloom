@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h1>TravelBloom</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <input type="text" id="searchBox" placeholder="Search destinations">
+        <button onclick="searchDestinations()">Search</button>
+    </nav>
+
+    <header>
+        <h2>Discover Your Next Adventure!</h2>
+        <p>Explore destinations tailored to your interests.</p>
+        <button class="btn">Book Now</button>
+    </header>
+
+    <section id="recommendations">
+        <h2>Recommended Destinations</h2>
+        <div id="destinations-container"></div>
+    </section>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>

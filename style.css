@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background: url('travel.jpg') no-repeat center center/cover;
+    height: 300px;
+    color: white;
+    padding-top: 100px;
+}
+
+.btn {
+    background: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#recommendations {
+    padding: 20px;
+}
+
+.destination {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.destination img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
